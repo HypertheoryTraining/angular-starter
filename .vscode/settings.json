@@ -14,5 +14,10 @@
   "eslint.codeActionsOnSave.mode": "all",
   "editor.formatOnSave": true,
   "workbench.tree.indent": 19,
-  "explorer.compactFolders": false
+  "explorer.compactFolders": false,
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always",
+    "source.format": "always"
+  }
 }

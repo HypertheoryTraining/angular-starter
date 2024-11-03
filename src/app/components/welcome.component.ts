@@ -1,7 +1,7 @@
-import { Component } from "@angular/core";
+import { Component } from '@angular/core';
 
 @Component({
-  selector: "app-welcome",
+  selector: 'app-welcome',
   standalone: true,
   imports: [],
   template: `
@@ -12,6 +12,8 @@ import { Component } from "@angular/core";
         <li>Tailwind for CSS</li>
         <li>DaisyUi for UI Library</li>
         <li>Mock Service Workers</li>
+        <li>Prettier</li>
+        <li>ESLint</li>
       </ul>
     </div>
   `,

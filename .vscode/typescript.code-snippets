@@ -7,7 +7,7 @@
       "",
       "@Component({",
       "\tselector: 'app-$1',",
-      "\tstandalone: true,"
+      "\tstandalone: true,",
       "\tchangeDetection: ChangeDetectionStrategy.OnPush,",
       "\timports: [],",
       "\ttemplate: `",
@@ -17,9 +17,9 @@
       "})",
       "export class ${2:${TM_FILENAME_BASE/(?:^|-|_|\\.)(\\w)/${1:/pascalcase}/g}} {",
       "",
-      "}",
+      "}"
     ],
-    "description": "Angular Standalone Component",
+    "description": "Angular Standalone Component"
   },
   "Angular Refactor Component": {
     "scope": "typescript",
@@ -39,8 +39,8 @@
       "})",
       "export class ${2:${TM_FILENAME_BASE/(?:^|-|_|\\.)(\\w)/${1:/pascalcase}/g}} {",
       "$0",
-      "}",
+      "}"
     ],
-    "description": "Angular Standalone Component",
-  },
+    "description": "Angular Standalone Component"
+  }
 }
