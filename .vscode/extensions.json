@@ -5,6 +5,7 @@
     "esbenp.prettier-vscode",
     "dbaeumer.vscode-eslint",
     "bradlc.vscode-tailwindcss",
-    "mattpocock.ts-error-translator"
+    "mattpocock.ts-error-translator",
+    "ms-playwright.playwright"
   ]
 }
