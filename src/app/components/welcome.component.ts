@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-welcome',
-  standalone: true,
-  imports: [],
-  template: `
+    selector: 'app-welcome',
+    imports: [],
+    template: `
     <div class="prose pt-12">
       <h1>Angular Starter</h1>
       <p>Using Angular 18.2.9.</p>
@@ -17,6 +16,6 @@ import { Component } from '@angular/core';
       </ul>
     </div>
   `,
-  styles: ``,
+    styles: ``
 })
 export class WelcomeComponent {}
