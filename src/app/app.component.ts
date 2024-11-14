@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+
 import { WelcomeComponent } from './components/welcome.component';
 
 @Component({
@@ -10,6 +10,6 @@ import { WelcomeComponent } from './components/welcome.component';
     </main>
   `,
     styles: [],
-    imports: [RouterOutlet, WelcomeComponent]
+    imports: [ WelcomeComponent]
 })
 export class AppComponent {}

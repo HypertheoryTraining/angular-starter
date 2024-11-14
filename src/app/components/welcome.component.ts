@@ -6,13 +6,13 @@ import { Component } from '@angular/core';
     template: `
     <div class="prose pt-12">
       <h1>Angular Starter</h1>
-      <p>Using Angular 18.2.9.</p>
+      <p>Using Angular 19.0.0-rc.2</p>
       <ul>
-        <li>Tailwind for CSS</li>
-        <li>DaisyUi for UI Library</li>
-        <li>Mock Service Workers</li>
-        <li>Prettier</li>
-        <li>ESLint</li>
+        <li><a href="https://tailwindcss.com/">Tailwind for CSS</a></li>
+        <li><a href="https://daisyui.com/">DaisyUi for UI Library</a></li>
+        <li><a href="https://mswjs.io/">Mock Service Workers</a></li>
+        <li><a href="https://prettier.io/">Prettier</a></li>
+        <li><a href="https://eslint.org/">ESLint</a></li>
       </ul>
     </div>
   `,
