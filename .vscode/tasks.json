@@ -4,9 +4,9 @@
   "tasks": [
     {
       "type": "shell",
-      "command": "ng serve -o",
+      "command": "npm run start",
       "label": "getcoding",
-      
+
       "runOptions": {
         "runOn": "folderOpen"
       },
