@@ -23,3 +23,13 @@
 
 - Tailwind - forms, typography, autoprefixer, daisyui, postcss, tailwindcss
 - Mock Service Workers (msw) - for creating test doubles for API access.
+
+## Using This
+
+Create a directory, and in that directory:
+
+```sh
+npx degit hypertheorytraining/angular-starter
+npm i
+code .
+```
