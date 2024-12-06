@@ -4,6 +4,12 @@
   },
 
   "files.autoSave": "onFocusChange",
+  "auto-rename-tag.activationOnLanguage": [
+    "html",
+    "xml",
+    "typescript",
+    "javascript"
+  ],
   "typescript.inlayHints.parameterNames.enabled": "literals",
   "typescript.inlayHints.variableTypes.enabled": true,
   "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
