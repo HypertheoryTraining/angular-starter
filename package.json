@@ -6,7 +6,8 @@
     "start": "ng serve -o",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "playwright test --ui",
+    "test:system": "playwright test --ui",
+    "test:unit": "ng test",
     "lint": "ng lint"
   },
   "private": true,

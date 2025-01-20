@@ -55,4 +55,14 @@
       "]",
     ],
   },
+  "Jasmine Describe": {
+    "scope": "typescript",
+    "prefix": "desc",
+    "body": ["describe('$1', () => {", "$0", "});"],
+  },
+  "Jasmine It": {
+    "scope": "typescript",
+    "prefix": "it",
+    "body": ["it('$1', () => {", "$0", "});"],
+  },
 }
