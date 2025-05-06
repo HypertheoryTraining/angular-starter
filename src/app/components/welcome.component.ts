@@ -1,8 +1,9 @@
 import { Component, VERSION } from '@angular/core';
+import { MockedApiComponent } from './mocked-api';
 
 @Component({
   selector: 'app-welcome',
-  imports: [],
+  imports: [MockedApiComponent],
   template: `
     <div class="prose pt-12">
       <h1>Angular Starter</h1>
@@ -25,6 +26,9 @@ import { Component, VERSION } from '@angular/core';
 
         <a class="btn  btn-primary" href="https://eslint.org/">ESLint</a>
       </div>
+      @defer (on timer(500ms)) {
+        <app-mocked-api></app-mocked-api>
+      }
     </div>
   `,
   styles: ``,
