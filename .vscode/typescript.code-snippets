@@ -14,11 +14,11 @@
       "\t`,",
       "\tstyles: ``",
       "})",
-      "export class ${2:${TM_FILENAME_BASE/(?:^|-|_|\\.)(\\w)/${1:/pascalcase}/g}}Component {",
+      "export class ${2:${TM_FILENAME_BASE/(?:^|-|_|\\.)(\\w)/${1:/pascalcase}/g}} {",
       "",
-      "}",
+      "}"
     ],
-    "description": "Angular Standalone Component",
+    "description": "Angular Standalone Component"
   },
   "Angular Refactor Component": {
     "scope": "typescript",
@@ -35,11 +35,11 @@
       "\t`,",
       "\tstyles: ``",
       "})",
-      "export class ${2:${TM_FILENAME_BASE/(?:^|-|_|\\.)(\\w)/${1:/pascalcase}/g}}Component {",
+      "export class ${2:${TM_FILENAME_BASE/(?:^|-|_|\\.)(\\w)/${1:/pascalcase}/g}} {",
       "$0",
-      "}",
+      "}"
     ],
-    "description": "Angular Standalone Component",
+    "description": "Angular Standalone Component"
   },
   "Angular Routes": {
     "scope": "typescript",
@@ -52,17 +52,17 @@
       "\t\tcomponent: ${2},",
       "\t\tchildren: []",
       "\t}",
-      "]",
-    ],
+      "]"
+    ]
   },
-  "Jasmine Describe": {
+  "Describe": {
     "scope": "typescript",
     "prefix": "desc",
-    "body": ["describe('$1', () => {", "$0", "});"],
+    "body": ["describe('$1', () => {", "$0", "});"]
   },
-  "Jasmine It": {
+  "It": {
     "scope": "typescript",
     "prefix": "it",
-    "body": ["it('$1', () => {", "$0", "});"],
-  },
+    "body": ["it('$1', () => {", "$0", "});"]
+  }
 }
