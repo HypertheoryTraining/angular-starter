@@ -6,7 +6,6 @@
     "dbaeumer.vscode-eslint",
     "bradlc.vscode-tailwindcss",
     "mattpocock.ts-error-translator",
-    "ms-playwright.playwright",
-    "formulahendry.auto-rename-tag"
+    "ms-playwright.playwright"
   ]
 }
