@@ -12,4 +12,4 @@ import { WelcomeComponent } from './components/welcome.component';
   styles: [],
   imports: [WelcomeComponent],
 })
-export class AppComponent {}
+export class App {}
