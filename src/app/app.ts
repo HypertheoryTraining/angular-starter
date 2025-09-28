@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { WelcomeComponent } from './components/welcome.component';
+import { Welcome } from './components/welcome.component';
 
 @Component({
   selector: 'app-root',
@@ -10,6 +10,6 @@ import { WelcomeComponent } from './components/welcome.component';
     </main>
   `,
   styles: [],
-  imports: [WelcomeComponent],
+  imports: [Welcome],
 })
 export class App {}

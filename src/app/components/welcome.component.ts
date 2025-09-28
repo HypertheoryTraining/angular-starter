@@ -33,6 +33,6 @@ import { MockedApiComponent } from './mocked-api';
   `,
   styles: ``,
 })
-export class WelcomeComponent {
+export class Welcome {
   v = VERSION;
 }
